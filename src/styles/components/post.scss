@@ -1,0 +1,26 @@
+.posts {
+    transform: translateY(-80px);
+}
+
+.post {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 80%;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    display: block;
+
+    &__top {
+
+    }
+
+    &__title {
+        font-size: 32px;
+        margin: 10px 0px;
+    }
+
+    &__body {
+
+    }
+}

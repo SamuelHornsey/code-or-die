@@ -1,0 +1,16 @@
+.header {
+    background-image: linear-gradient(to left top, #ffe943, #ffe13d, #ffd937, #ffd032, #ffc82d);
+    margin-top: 150px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        text-align: center;
+    }
+
+    &__img {
+        transform: rotate(90deg);
+    }
+}
