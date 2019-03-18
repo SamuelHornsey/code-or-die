@@ -21,8 +21,12 @@ export default class Posts {
     render () {
         this.posts.forEach(post => {
             let el = document.createElement('app-post');
+
+            el.title = post.data.title[0].text;
+            el.date = post.first_publication_date;
+            el.body = post.data.content[0].text;
+
             this.postsContainer.appendChild(el);
-            console.log(post);
         });
     }
 }

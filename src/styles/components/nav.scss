@@ -6,6 +6,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    transition: transform .4s ease;
 
     &__container {
         list-style: none;
