@@ -13,11 +13,34 @@
       href="https://fonts.googleapis.com/css?family=Roboto:900"
       rel="stylesheet"
     />
-  <link href="main.27d72401a26dc4903219.css" rel="stylesheet"></head>
+  <link href="main.8d2e28a0e844fbe6290a.css" rel="stylesheet"></head>
   <body>
-    <nav class="nav">
+    <div class="dropdown dropdown--closed js-dropdown">
+      <a class="dropdown__close js-close">
+        <img
+          class="dropdown__close-img"
+          src="close.svg"
+          alt="Close"
+          width="30px"
+        />
+      </a>
+
+      <ul class="dropdown__container">
+        <li class="dropdown__element">
+          <a class="dropdown__link" href="#">Twitter</a>
+        </li>
+        <li class="dropdown__element">
+          <a class="dropdown__link" href="#">Github</a>
+        </li>
+        <li class="dropdown__element">
+          <a class="dropdown__link" href="#">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="nav js-nav">
       <ul class="nav__container">
-        <li class="nav__element">
+        <li class="nav__logo">
           <a class="nav__link" href="/">
             <img
               class="nav__img"
@@ -36,6 +59,12 @@
         <li class="nav__element">
           <a class="nav__link" href="#">LinkedIn</a>
         </li>
+
+        <li class="nav__expand">
+          <a class="nav__link js-expand" href="#">
+            <img src="menu.svg" alt="Menu" width="20px" />
+          </a>
+        </li>
       </ul>
     </nav>
 
@@ -52,9 +81,22 @@
       <div id="disqus_thread"></div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer"></footer>
 
-    </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-129566070-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-129566070-2");
+    </script>
 
     <script>
       /**
@@ -79,5 +121,5 @@
         >comments powered by Disqus.</a
       ></noscript
     >
-  <script type="text/javascript" src="bundle.27d72401a26dc4903219.js"></script></body>
+  <script type="text/javascript" src="bundle.8d2e28a0e844fbe6290a.js"></script></body>
 </html>

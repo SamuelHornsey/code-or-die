@@ -1,7 +1,7 @@
 const template = `
     <div class="post__top">
         <div class="post__title js-title"></div>
-        <small class="js-date">15.03.19</small>
+        <small class="js-date"></small>
     </div>
 
     <div class="post__body js-body">

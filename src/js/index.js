@@ -8,5 +8,5 @@ import './services/scroll';
 import { Posts } from "./services";
 
 window.addEventListener('load', () => {
-  let posts = new Posts;
+  new Posts;
 });
