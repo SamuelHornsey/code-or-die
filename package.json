@@ -7,7 +7,7 @@
     "webpack:dev": "webpack --mode=development",
     "webpack:prod": "webpack --mode=production",
     "start": "webpack-dev-server --mode=development",
-    "clean": "rm -r dist"
+    "clean": "rm -r app"
   },
   "repository": {
     "type": "git",

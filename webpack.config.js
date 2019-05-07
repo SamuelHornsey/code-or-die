@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
 
     // where to dump the output of a production build
     output: {
-      path: path.join(__dirname, "dist"),
+      path: path.join(__dirname, "app"),
       filename: devMode ? "bundle.js" : "bundle.[hash].js"
     },
 

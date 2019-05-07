@@ -1,6 +1,5 @@
 export default class NavControls {
     constructor () {
-        console.log('Nav');
         this.nav = document.querySelector('.js-nav');
         this.expand = this.nav.querySelector('.js-expand');
         this.dropdown = document.querySelector('.js-dropdown');
