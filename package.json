@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/SamuelHornsey/code-or-die#readme",
   "dependencies": {
-    "prismic-javascript": "^2.1.3"
+    "prismic-javascript": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
